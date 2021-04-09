@@ -1,5 +1,4 @@
 def spiralize(number):
-    number = 21
     increment = 0
     diag_one = 1
     diag_two = 1
