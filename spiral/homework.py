@@ -1,12 +1,12 @@
 def spiralize(number):
-    size = 21
+    number = 21
     increment = 0
     diag_one = 1
     diag_two = 1
     diag_three = 1
     diag_four = 1
     old_sum =[]
-    for x in range(0,size,2):
+    for x in range(0,number,2):
         diag_one = diag_one+8*increment
         diag_two = diag_one-6*increment
         diag_three = diag_one-4*increment
